@@ -4,8 +4,9 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/Sonar_Rock_vs_Mine/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/Sonar_Rock_vs_Mine/models" />
+      <excludeFolder url="file://$MODULE_DIR$/Sonar_Rock_vs_Mine/lr" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.14 (LogisticRegressionProjects)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.14 (LogisticRegressionProjects) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
