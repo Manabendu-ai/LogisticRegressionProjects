@@ -1,7 +1,10 @@
 import pandas as pd
+from pathlib import Path
 import joblib
 
-loaded = joblib.load("../model/titan.pkl")
+MODEL_PATH = Path(__file__).parent.parent / "model" / "titan.pkl"
+
+loaded = joblib.load(MODEL_PATH)
 model = loaded["model"]
 feature_names = loaded["feature_names"]
 
