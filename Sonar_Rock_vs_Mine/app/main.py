@@ -1,10 +1,12 @@
 from fastapi import FastAPI
 import joblib
 from schemas import Sonar
+from pathlib import Path
 
 app = FastAPI()
 
-model = joblib.load("../model/sonar_model.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+model = joblib.load(BASE_DIR / "model" / "sonar_model.pkl")
 
 @app.get('/', tags=["prediction"])
 def home():
